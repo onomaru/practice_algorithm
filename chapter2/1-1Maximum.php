@@ -3,9 +3,6 @@
 $n = intval(trim(fgets(STDIN)));
 
 for ($i = 0;$i < $n;$i++) {
-    echo "n".$n.PHP_EOL;
-    echo "i".$i.PHP_EOL;
-
     $a[$i] = intval(trim(fgets(STDIN)));
 }
 $maxv = -2000000000;
